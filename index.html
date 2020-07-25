@@ -7,9 +7,9 @@
   <title>LATINBRANDS</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.css">
-  <link rel="stylesheet" href="css/vendors/animate.css">
-  <link rel="stylesheet" href="css/linearicons.css">
-  <link rel="stylesheet" href="css/main.css">
+  <!--link rel="stylesheet" href="css/vendors/animate.css">
+  <link rel="stylesheet" href="css/linearicons.css"-->
+  <link rel="stylesheet" href="css/main.css"-->
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -17,6 +17,8 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P4W8SQL');</script>
     <!-- End Google Tag Manager -->
+    <!-- GreenSoock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -33,7 +35,7 @@
       <ul class="nav" id="menu">
         <li data-menuanchor="inicio.html" class="active"><a href="#inicio.html">INICIO</a></li>
         <li data-menuanchor="nosotros.html"><a href="#nosotros.html">NOSOTROS</a></li>
-        <!--li data-menuanchor="trabajos"><a href="#">TRABAJOS</a></li-->
+        <li data-menuanchor="trabajos"><a href="#">TRABAJOS</a></li>
         <li data-menuanchor="clientes.html"><a href="#clientes.html">CLIENTES</a></li>
         <li data-menuanchor="equipo.html"><a href="#equipo.html">EQUIPO</a></li>
         <li data-menuanchor="contacto.html"><a href="#contacto.html">CONTACTO</a></li>
@@ -47,38 +49,26 @@
     </nav>
   </header>
   <div class="wrapper" id="fullpage">
+
+    <!-- Seccion home  **************************************************************-->
     <div class="section home">
       <div class="ct">
         <div class="wrap">
-          <!-- <div class="anim wow fadeOut" data-wow-duration="1s" data-wow-delay="5s" id="anim1">
-            <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="1">NOS REINVENTAMOS</p>
-            <figure class="wow zoomIn" data-wow-duration="1s" data-wow-delay="3s"><img src="images/logo.svg" alt="" width="315"></figure>
-          </div> -->
+          <div class="bubbles">
+            <img src="images/bubbles/bubble1.png" alt="">
+          </div>
           <div class="anim wow fadeOut" data-wow-duration="1s" data-wow-delay="5s" id="anim2">
             <p class="other wow zoomIn" data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="1">良いイノベーション</p>
             <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="3s">GOOD INNOVATION </p>
           </div>
-          <div class="anim wow fadeOut" data-wow-duration="1s" data-wow-delay="8s" id="anim3">
-            <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="6s">Una filosofía y  metodología basada en</p>
-          </div>
-          <div class="anim wow fadeOut" data-wow-duration="1s" data-wow-delay="11s" id="anim4">
-            <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="9s">Ideas que retan lo convencional</p>
-          </div>
-          <div class="anim wow fadeOut" data-wow-duration="1s" data-wow-delay="14s" id="anim5">
-            <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="12s">Tecnología que redefine lo que es posible</p>
-          </div>
-          <div class="anim wow fadeOut" data-wow-duration="1s" data-wow-delay="17s" id="anim6">
-            <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="15s">Visión de negocio que supera las expectativas</p>
-          </div>
-          <!-- <div class="anim last wow fadeIn" data-wow-duration="1s" data-wow-delay="22s" id="anim1">
-            <p class="wow zoomIn" data-wow-duration="1s" data-wow-delay="23s">NOS REINVENTAMOS</p>
-            <figure class="wow zoomIn" data-wow-duration="1s" data-wow-delay="23s"><img src="images/logo.svg" alt="" width="315"></figure>
-          </div> -->
         </div>
       </div>
       <a href="#nosotros.html" class="btn-down"><i class="fas fa-chevron-down"></i></a>
       <figure class="img-dentsu"><img src="images/dentsu.png" alt=""></figure>
     </div>
+    <!-- End Seccion home  **************************************************************-->
+
+    <!-- Seccion Nosotros  **************************************************************-->
     <div class="section nosotros">
       <div class="ct">
         <h2>NOSOTROS</h2>
@@ -103,6 +93,9 @@
       <div class="fig dos"><img src="images/fig2.png" alt=""></div>
       <div class="fig tres"><img src="images/fig3.png" alt=""></div>
     </div>
+    <!-- End Seccion Nosotros  **************************************************************-->
+
+    <!-- Seccion Clientes  **************************************************************-->
     <div class="section clientes">
       <div class="ct">
         <h2>CLIENTES</h2>
@@ -121,6 +114,9 @@
       <div class="cli cuatro"><img src="images/cli4.png" alt=""></div>
       <div class="cli cinco"><img src="images/cli5.png" alt=""></div>
     </div>
+    <!-- End Seccion Clientes  **************************************************************-->
+
+    <!-- Seccion Equipo  **************************************************************-->
     <div class="section equipo">
       <div class="ct">
         <h2>EQUIPO</h2>
@@ -152,6 +148,9 @@
         </div>
       </div>
     </div>
+    <!-- End Seccion Equipo  **************************************************************-->
+
+    <!-- Seccion Conversemos  **************************************************************-->
     <div class="section contacto">
       <div class="ct">
         <h2>CONVERSEMOS</h2>
@@ -328,7 +327,7 @@
   <script type="text/javascript" src="js/main.js"></script>
   <script>
     jQuery(document).ready(function(){
-      new WOW().init();
+      //new WOW().init();
     });
   </script>
 </body>
