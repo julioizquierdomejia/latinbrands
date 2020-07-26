@@ -19014,6 +19014,20 @@ textarea:focus {
     transform: translate(-50%, 0)
 }
 
+.bubbles{
+	width: 100%;
+	background-color: gray;
+	height: 100%;
+	opacity: 1;
+	overflow: hidden;
+}
+
+/*posiciones iniciales de bubbles*/
+
+.bubble{
+	position: absolute;
+}
+
 .ly-latin-loader {
     background: #fff;
     position: fixed;

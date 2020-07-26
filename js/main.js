@@ -110,4 +110,82 @@ jQuery(document).ready(function(){
 	menuNav.go();
 	validInput.go();
 	bgImage.go();
+
+	$('#bubble1').css('left','230px')
+	$('#bubble1').css('top','320px')
+
+	$('#bubble2').css('left','180px')
+	$('#bubble2').css('top','280px')
+
+	$('#bubble3').css('left','160px')
+	$('#bubble3').css('top','480px')
+
+	$('#bubble4').css('left','140px')
+	$('#bubble4').css('top','380px')
+
+	$('#bubble5').css('left','280px')
+	$('#bubble5').css('top','230px')
+
+	$('#bubble6').css('left','380px')
+	$('#bubble6').css('top','730px')
+
+	$('#bubble7').css('left','430px')
+	$('#bubble7').css('top','-60px')
+
+	$('#bubble8').css('left','1230px')
+	$('#bubble8').css('top','-40px')
+
+	$('#bubble9').css('left','1580px')
+	$('#bubble9').css('top','120px')
+
+	$('#bubble10').css('left','1530px')
+	$('#bubble10').css('top','420px')
+
+	$('#bubble11').css('left','1530px')
+	$('#bubble11').css('top','620px')
+	
+	
+	
+	
+
+	
+
+//analizamos el alto y ancho del div que contiene las bubbles
+	/*
+	var bubbles_width;
+	var bubbles_height;
+
+	$('.bubbles').ready(function($){
+		bubbles_width = $(this).width();
+		bubbles_height = $(this).height();
+
+		//alert('posx:' + posx_random + ' - Posy:' + posy_random);
+
+		$( ".bubble" ).each(function( index ) {
+			var posx_random;
+			var posy_random;
+			posx_random = Math.floor(Math.random() * bubbles_width);
+			posy_random = Math.floor(Math.random() * bubbles_height);
+		  	console.log('hola' + index)
+		  	$(this).css({'left': posx_random, 'top': posy_random});
+
+		});
+
+	}); 
+*/
+	
+	
+
+	
+
+
 });
+
+
+
+
+
+
+
+
+
