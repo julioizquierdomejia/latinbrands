@@ -180,7 +180,20 @@ jQuery(document).ready(function(){
 	$('#bubble11_mb').css('left','330px')
 	$('#bubble11_mb').css('top','620px')
 
+	//animaciones
+	gsap.to("#bubble1", {rotation: 160, x: 900, y:-200, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble2", {rotation: -156, x: 600, y:-260, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble3", {rotation: 156, x: 350, y:-260, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble4", {rotation: 356, x: 950, y:-560, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble5", {rotation: 356, x: 950, y:-40, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble6", {rotation: 356, x: 1350, y:-540, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble8", {rotation: 356, x: -1340, y:400, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble9", {rotation: 356, x: -1340, y:600, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
 	
+
 
 //analizamos el alto y ancho del div que contiene las bubbles
 	/*
