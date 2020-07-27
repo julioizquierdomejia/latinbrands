@@ -7,11 +7,12 @@ var fullPage = {
 			fadingEffect: true,
 			scrollOverflow: true,
 			scrollOverflowOptions: {
-				click:false,    
+				click:false,
 				preventDefaultException: {tagName: /.*/}
 			},
 			afterRender: function(){
 				jQuery('.ly-latin-loader').fadeOut('slow');
+				animarBolas();
 			},
 			afterLoad: function(anchorLink, index){
 				if(anchorLink == 'nosotros.html' || anchorLink == 'clientes.html' || anchorLink == 'equipo.html'){
@@ -103,15 +104,7 @@ var bgImage = {
 	}
 }
 
-jQuery(document).ready(function(){
-	fullPage.go();
-	menuHead.go();
-	eqDeta.go();
-	menuNav.go();
-	validInput.go();
-	bgImage.go();
-
-
+function animarBolas(){
 	//desktop
 	$('#bubble1').css('left','230px')
 	$('#bubble1').css('top','320px')
@@ -204,6 +197,18 @@ jQuery(document).ready(function(){
 	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
 	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
 	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+
+}
+
+jQuery(document).ready(function(){
+	fullPage.go();
+	menuHead.go();
+	eqDeta.go();
+	menuNav.go();
+	validInput.go();
+	bgImage.go();
+
+
 	
 
 

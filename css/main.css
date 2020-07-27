@@ -18937,10 +18937,12 @@ textarea:focus {
     padding: 0
 }
 
+/*
 .wrapper .section.home .ct.zoom {
     transition: all 25s ease-in-out;
-    background-size: auto 200%
+    background-size: auto 100%
 }
+*/
 
 .wrapper .section.home .wrap .anim {
     position: absolute;
