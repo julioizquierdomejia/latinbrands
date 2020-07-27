@@ -193,17 +193,17 @@ jQuery(document).ready(function(){
 	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
 	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
 
-	gsap.to("#bubble1_mb", {rotation: 160, x: 900, y:-200, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble2_mb", {rotation: -156, x: 600, y:-260, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble3_mb", {rotation: 156, x: 350, y:-260, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble4_mb", {rotation: 356, x: 950, y:-560, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble5_mb", {rotation: 356, x: 950, y:-40, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble6_mb", {rotation: 356, x: 1350, y:-540, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble7_mb", {rotation: 356, x: 1350, y:0, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8_mb", {rotation: 356, x: -1340, y:400, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9_mb", {rotation: 356, x: -1340, y:600, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10_mb", {rotation: -356, x: -740, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11_mb", {rotation: 356, x: -1540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble3_mb", {rotation: 156, x: 150, y:-260, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble4_mb", {rotation: 356, x: 450, y:-560, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble5_mb", {rotation: 356, x: 450, y:-40, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble6_mb", {rotation: 356, x: 500, y:-540, duration: 10, yoyo:true, repeat:-1});
+	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
 	
 
 
