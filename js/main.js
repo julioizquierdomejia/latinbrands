@@ -147,17 +147,17 @@ jQuery(document).ready(function(){
 	$('#bubble11').css('top','620px')
 
 	//Mobile
-	$('#bubble1_mb').css('left','230px')
-	$('#bubble1_mb').css('top','320px')
+	$('#bubble1_mb').css('left','100px')
+	$('#bubble1_mb').css('top','520px')
 
-	$('#bubble2_mb').css('left','180px')
-	$('#bubble2_mb').css('top','280px')
+	$('#bubble2_mb').css('left','50px')
+	$('#bubble2_mb').css('top','530px')
 
-	$('#bubble3_mb').css('left','160px')
-	$('#bubble3_mb').css('top','280px')
+	$('#bubble3_mb').css('left','90px')
+	$('#bubble3_mb').css('top','500px')
 
 	$('#bubble4_mb').css('left','140px')
-	$('#bubble4_mb').css('top','380px')
+	$('#bubble4_mb').css('top','580px')
 
 	$('#bubble5_mb').css('left','280px')
 	$('#bubble5_mb').css('top','230px')
@@ -166,18 +166,18 @@ jQuery(document).ready(function(){
 	$('#bubble6_mb').css('top','730px')
 
 	$('#bubble7_mb').css('left','430px')
-	$('#bubble7_mb').css('top','-60px')
+	$('#bubble7_mb').css('top','-20px')
 
 	$('#bubble8_mb').css('left','1230px')
 	$('#bubble8_mb').css('top','-40px')
 
-	$('#bubble9_mb').css('left','1580px')
+	$('#bubble9_mb').css('left','400px')
 	$('#bubble9_mb').css('top','120px')
 
-	$('#bubble10_mb').css('left','1530px')
+	$('#bubble10_mb').css('left','430px')
 	$('#bubble10_mb').css('top','420px')
 
-	$('#bubble11_mb').css('left','1530px')
+	$('#bubble11_mb').css('left','330px')
 	$('#bubble11_mb').css('top','620px')
 
 	
