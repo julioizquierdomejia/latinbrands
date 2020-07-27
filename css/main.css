@@ -18568,11 +18568,11 @@
 
 @media (max-width: 768px) {
 
+	
 	.bubbles-dk{display: none;}
 	
-	.bubbles-mb{
-		display: block!important;
-	}
+	.bubbles-mb{display: block!important;}
+	
 	
     div.wrapper .section.nosotros,
     div.wrapper .section.clientes,
@@ -19037,6 +19037,7 @@ textarea:focus {
 	opacity: 1;
 	overflow: hidden;
 	display: none;
+
 }
 
 /*posiciones iniciales de bubbles*/

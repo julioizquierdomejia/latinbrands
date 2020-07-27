@@ -154,7 +154,7 @@ jQuery(document).ready(function(){
 	$('#bubble2_mb').css('top','280px')
 
 	$('#bubble3_mb').css('left','160px')
-	$('#bubble3_mb').css('top','780px')
+	$('#bubble3_mb').css('top','280px')
 
 	$('#bubble4_mb').css('left','140px')
 	$('#bubble4_mb').css('top','380px')
