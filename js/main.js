@@ -225,7 +225,7 @@ function animarBolas(){
 	var texto2_ = new SplitText('.texto2', {type:"words, chars"});
 	
 	TweenLite.set('.texto1', {perspective:400});
-	TweenMax.staggerFrom(texto1_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:3}, 0.02, allDone);
+	TweenMax.staggerFrom(texto1_.chars, 1.2, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:2}, 0.02, allDone);
 
 	TweenLite.set('.texto2', {perspective:400});
 	TweenMax.staggerFrom(texto2_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);
