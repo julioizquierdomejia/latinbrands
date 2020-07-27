@@ -165,16 +165,16 @@ jQuery(document).ready(function(){
 	$('#bubble6_mb').css('left','380px')
 	$('#bubble6_mb').css('top','730px')
 
-	$('#bubble7_mb').css('left','430px')
+	$('#bubble7_mb').css('left','230px')
 	$('#bubble7_mb').css('top','-20px')
 
-	$('#bubble8_mb').css('left','1230px')
+	$('#bubble8_mb').css('left','330px')
 	$('#bubble8_mb').css('top','-40px')
 
-	$('#bubble9_mb').css('left','400px')
+	$('#bubble9_mb').css('left','300px')
 	$('#bubble9_mb').css('top','120px')
 
-	$('#bubble10_mb').css('left','430px')
+	$('#bubble10_mb').css('left','230px')
 	$('#bubble10_mb').css('top','420px')
 
 	$('#bubble11_mb').css('left','330px')
