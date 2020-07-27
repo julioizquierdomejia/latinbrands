@@ -231,7 +231,8 @@ function animarBolas(){
 	TweenMax.staggerFrom(texto2_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);
 
 	function allDone(){
-		texto1_.revert();
+		TweenMax.staggerTo(texto1_.chars, 0.8, {opacity:0, x:80,  ease:Back.easeOut, delay:.56}, 0.02);
+		TweenMax.staggerTo(texto2_.chars, 0.8, {opacity:0, x:80,  ease:Back.easeOut, delay:.32}, 0.02);
 	}
 
 }
