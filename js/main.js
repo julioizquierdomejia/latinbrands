@@ -173,46 +173,32 @@ function animarBolas(){
 	$('#bubble11_mb').css('left','330px')
 	$('#bubble11_mb').css('top','620px')
 
+	var dur = 32;
 	//animaciones
-	gsap.to("#bubble1", {rotation: 160, x: 900, y:-200, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble2", {rotation: -156, x: 600, y:-260, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble3", {rotation: 156, x: 350, y:-260, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble4", {rotation: 356, x: 950, y:-560, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble5", {rotation: 356, x: 950, y:-40, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble6", {rotation: 356, x: 1350, y:-540, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8", {rotation: 356, x: -1340, y:400, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9", {rotation: 356, x: -1340, y:600, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble1", {rotation: 160, x: 900, y:-200, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble2", {rotation: -156, x: 600, y:-260, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble3", {rotation: 156, x: 350, y:-260, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble4", {rotation: 356, x: 950, y:-560, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble5", {rotation: 356, x: 950, y:-40, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble6", {rotation: 356, x: 1350, y:-540, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble8", {rotation: 356, x: -1340, y:400, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble9", {rotation: 356, x: -1340, y:600, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
 
-	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble3_mb", {rotation: 156, x: 150, y:-260, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble4_mb", {rotation: 356, x: 450, y:-560, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble5_mb", {rotation: 356, x: 450, y:-40, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble6_mb", {rotation: 356, x: 500, y:-540, duration: 10, yoyo:true, repeat:-1});
-	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: 10, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble3_mb", {rotation: 156, x: 150, y:-260, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble4_mb", {rotation: 356, x: 450, y:-560, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble5_mb", {rotation: 356, x: 450, y:-40, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble6_mb", {rotation: 356, x: 500, y:-540, duration: dur, yoyo:true, repeat:-1});
+	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
 
-}
-
-jQuery(document).ready(function(){
-	fullPage.go();
-	menuHead.go();
-	eqDeta.go();
-	menuNav.go();
-	validInput.go();
-	bgImage.go();
-
-
-	
-
-
-//analizamos el alto y ancho del div que contiene las bubbles
 	/*
 	var bubbles_width;
 	var bubbles_height;
@@ -235,12 +221,28 @@ jQuery(document).ready(function(){
 
 	}); 
 */
+	var texto1_ = new SplitText('.texto1', {type:"words, chars"});
+	var texto2_ = new SplitText('.texto2', {type:"words, chars"});
 	
-	
+	TweenLite.set('.texto1', {perspective:400});
+	TweenMax.staggerFrom(texto1_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:3}, 0.02, allDone);
 
-	
+	TweenLite.set('.texto2', {perspective:400});
+	TweenMax.staggerFrom(texto2_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);
 
+	function allDone(){
+		texto1_.revert();
+	}
 
+}
+
+jQuery(document).ready(function(){
+	fullPage.go();
+	menuHead.go();
+	eqDeta.go();
+	menuNav.go();
+	validInput.go();
+	bgImage.go();
 });
 
 
