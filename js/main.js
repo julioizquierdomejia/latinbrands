@@ -173,7 +173,7 @@ function animarBolas(){
 	$('#bubble11_mb').css('left','330px')
 	$('#bubble11_mb').css('top','620px')
 
-	var dur1 = 24;
+	var dur1 = 60;
 	var dur = 32;
 	//animaciones
 	gsap.to("#bubble1", {rotation: 160, x: 1900, y:-200, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
