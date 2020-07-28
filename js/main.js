@@ -173,32 +173,32 @@ function animarBolas(){
 	$('#bubble11_mb').css('left','330px')
 	$('#bubble11_mb').css('top','620px')
 
-	var dur1 = 50;
+	var dur1 = 24;
 	var dur = 32;
 	//animaciones
-	gsap.to("#bubble1", {rotation: 160, x: 1900, y:-200, duration: dur1, yoyo:true, repeat:-1});
-	gsap.to("#bubble2", {rotation: -156, x: 600, y:-260, duration: dur1, yoyo:true, repeat:-1});
-	gsap.to("#bubble3", {rotation: 156, x: 350, y:-260, duration: dur1, yoyo:true, repeat:-1});
-	gsap.to("#bubble4", {rotation: 356, x: 950, y:-560, duration: dur1, yoyo:true, repeat:-1});
-	gsap.to("#bubble5", {rotation: 356, x: 950, y:-40, duration: dur1, yoyo:true, repeat:-1});
-	gsap.to("#bubble6", {rotation: 356, x: 1350, y:-540, duration: dur1, yoyo:true, repeat:-1});
-	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8", {rotation: 356, x: 1340, y:-400, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9", {rotation: 356, x: 1340, y:-600, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10", {rotation: -356, x: 740, y:-500, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11", {rotation: 356, x: 1540, y:-200, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble1", {rotation: 160, x: 1900, y:-200, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble2", {rotation: -156, x: 600, y:-260, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble3", {rotation: 156, x: 350, y:-260, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble4", {rotation: 356, x: 950, y:-560, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble5", {rotation: 356, x: 950, y:-40, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble6", {rotation: 356, x: 1350, y:-540, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble8", {rotation: 356, x: 1340, y:-400, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble9", {rotation: 356, x: 1340, y:-600, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble10", {rotation: -356, x: 740, y:-500, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble11", {rotation: 356, x: 1540, y:-200, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
 
-	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble3_mb", {rotation: 156, x: 150, y:-260, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble4_mb", {rotation: 356, x: 450, y:-560, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble5_mb", {rotation: 356, x: 450, y:-40, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble6_mb", {rotation: 356, x: 500, y:-540, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: dur, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: dur, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble3_mb", {rotation: 156, x: 150, y:-260, duration: dur, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble4_mb", {rotation: 356, x: 450, y:-560, duration: dur, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble5_mb", {rotation: 356, x: 450, y:-40, duration: dur, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble6_mb", {rotation: 356, x: 500, y:-540, duration: dur, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1, ease:Linear.easeNone});
 
 	/*
 	var bubbles_width;
