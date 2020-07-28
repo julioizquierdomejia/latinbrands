@@ -181,11 +181,11 @@ function animarBolas(){
 	gsap.to("#bubble4", {rotation: 356, x: 950, y:-560, duration: dur, yoyo:true, repeat:-1});
 	gsap.to("#bubble5", {rotation: 356, x: 950, y:-40, duration: dur, yoyo:true, repeat:-1});
 	gsap.to("#bubble6", {rotation: 356, x: 1350, y:-540, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8", {rotation: 356, x: -1340, y:400, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9", {rotation: 356, x: -1340, y:600, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble8", {rotation: 356, x: -1340, y:400, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble9", {rotation: 356, x: -1340, y:600, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
 
 	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: dur, yoyo:true, repeat:-1});
 	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: dur, yoyo:true, repeat:-1});
@@ -193,11 +193,11 @@ function animarBolas(){
 	gsap.to("#bubble4_mb", {rotation: 356, x: 450, y:-560, duration: dur, yoyo:true, repeat:-1});
 	gsap.to("#bubble5_mb", {rotation: 356, x: 450, y:-40, duration: dur, yoyo:true, repeat:-1});
 	gsap.to("#bubble6_mb", {rotation: 356, x: 500, y:-540, duration: dur, yoyo:true, repeat:-1});
-	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: dur, scaley:2, scalex:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble7_mb", {rotation: 356, x: 540, y:0, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble8_mb", {rotation: 356, x: -450, y:400, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble9_mb", {rotation: 356, x: -300, y:600, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10_mb", {rotation: -356, x: -240, y:500, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11_mb", {rotation: 356, x: -540, y:200, duration: dur, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
 
 	/*
 	var bubbles_width;
@@ -223,19 +223,58 @@ function animarBolas(){
 */
 	var texto1_ = new SplitText('.texto1', {type:"words, chars"});
 	var texto2_ = new SplitText('.texto2', {type:"words, chars"});
-	
+	var texto3_ = new SplitText('.texto3', {type:"words, chars"});
+	var texto4_ = new SplitText('.texto4', {type:"words, chars"});
+	var texto5_ = new SplitText('.texto5', {type:"words, chars"});
+	var texto6_ = new SplitText('.texto6', {type:"words, chars"});
+
 	TweenLite.set('.texto1', {perspective:400});
-	TweenMax.staggerFrom(texto1_.chars, 1.2, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:2}, 0.02, allDone);
+	TweenLite.set('.texto2', {perspective:400});
+	TweenLite.set('.texto3', {perspective:400});
+	TweenLite.set('.texto4', {perspective:400});
+	TweenLite.set('.texto5', {perspective:400});
+	TweenLite.set('.texto6', {perspective:400});
+
+	//TweenMax.staggerFrom(texto1_.chars, 1.2, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:2}, 0.02);
+
+	
+	var tl = gsap.timeline({repeat: -1, repeatDelay: 1});
+	tl.staggerFrom(texto2_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);
+	tl.staggerTo(texto2_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:1}, 0.03);
+	tl.staggerFrom(texto1_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut}, 0.02);
+	tl.staggerTo(texto1_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:1}, 0.03);
+	tl.staggerFrom(texto3_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut}, 0.02);
+	tl.staggerTo(texto3_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:2}, 0.01);
+	tl.staggerFrom(texto4_.words, 1, {opacity:0, y:120,  ease:Back.easeOut}, 0.12);
+	tl.staggerTo(texto4_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:2}, 0.01);
+	tl.staggerFrom(texto5_.chars, 0.4, {opacity:0, x:-60,  ease:Back.easeOut}, 0.02);
+	tl.staggerTo(texto5_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:2}, 0.01);
+	tl.staggerFrom(texto6_.chars, 0.4, {opacity:0, x:-60,  ease:Back.easeOut}, 0.02);
+	tl.staggerTo(texto6_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:2}, 0.01);
+	
+	//tl.to("#id", {y: 50, duration: 1});
+	//tl.to("#id", {opacity: 0, duration: 1});
+
+
+	/*
+	
+	TweenMax.staggerFrom(texto1_.chars, 1.2, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:2}, 0.02, function(){
+		TweenMax.staggerTo(texto1_.chars, 0.8, {opacity:0, x:80,  ease:Back.easeOut, delay:.64}, 0.02);
+	});
 
 	TweenLite.set('.texto2', {perspective:400});
-	TweenMax.staggerFrom(texto2_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);
-
-	function allDone(){
-		TweenMax.staggerTo(texto1_.chars, 0.8, {opacity:0, x:80,  ease:Back.easeOut, delay:.56}, 0.02);
+	TweenMax.staggerFrom(texto2_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02, function(){
 		TweenMax.staggerTo(texto2_.chars, 0.8, {opacity:0, x:80,  ease:Back.easeOut, delay:.32}, 0.02);
-	}
+	});
 
-}
+	TweenLite.set('.texto3', {perspective:400});
+	TweenMax.staggerFrom(texto3_.chars, 0.8, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02, function(){
+		TweenMax.staggerTo(texto3_.chars, 0.8, {opacity:0, x:80,  ease:Back.easeOut, delay:.60}, 0.02);
+	});
+	*/
+
+};
+
 
 jQuery(document).ready(function(){
 	fullPage.go();
