@@ -18902,6 +18902,11 @@ textarea:focus {
 	position: absolute;
 }
 
+.fondo img{
+	height: 100%;
+	width: auto;
+}
+
 .wrapper .section .ct {
     padding: 70px 0
 }
