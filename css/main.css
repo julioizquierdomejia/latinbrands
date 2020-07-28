@@ -18929,7 +18929,7 @@ textarea:focus {
 }
 
 .wrapper .section.home .ct {
-    background: url("../images/bg-degree-hd.png") 0 0 no-repeat;
+    /*background: url("../images/bg-degree-hd.png") 0 0 no-repeat;*/
     background-size: auto 100%;
     height: 100%;
     box-sizing: border-box;
@@ -18945,7 +18945,7 @@ textarea:focus {
 }
 
 .fondo img{
-	
+	height: 100%;
 }
 
 .wrapper .section.home .ct.zoom {

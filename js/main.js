@@ -177,7 +177,7 @@ function animarBolas(){
 	var dur = 32;
 	//animaciones
 
-	gsap.to(".fondo img", {x: -1800, duration: 30, yoyo:true, repeat:-1, ease:Linear.easeNone});
+	
 
 	gsap.to("#bubble1", {rotation: 160, x: 1900, y:-200, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
 	gsap.to("#bubble2", {rotation: -156, x: 600, y:-260, duration: dur1, yoyo:true, repeat:-1, ease:Linear.easeNone});
