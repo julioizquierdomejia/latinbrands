@@ -18895,6 +18895,13 @@ textarea:focus {
     outline: 0
 }
 
+.fondo{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
 .wrapper .section .ct {
     padding: 70px 0
 }
@@ -18929,23 +18936,12 @@ textarea:focus {
 }
 
 .wrapper .section.home .ct {
-    background: url("../images/bg-degree-hd.png") 0 0 no-repeat;
+    /*background: url("../images/bg-degree-hd.png") 0 0 no-repeat;*/
     background-size: auto 100%;
     height: 100%;
     box-sizing: border-box;
     position: relative;
     padding: 0
-}
-
-.fondo{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-
-.fondo img{
-	height: 100%;
 }
 
 .wrapper .section.home .ct.zoom {
