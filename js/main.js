@@ -185,8 +185,8 @@ function animarBolas(){
 	gsap.to("#bubble7", {rotation: 356, x: 1350, y:0, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
 	gsap.to("#bubble8", {rotation: 356, x: 1340, y:-400, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
 	gsap.to("#bubble9", {rotation: 356, x: 1340, y:-600, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble10", {rotation: -356, x: -740, y:500, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
-	gsap.to("#bubble11", {rotation: 356, x: -1540, y:200, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble10", {rotation: -356, x: 740, y:-500, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
+	gsap.to("#bubble11", {rotation: 356, x: 1540, y:-200, duration: dur1, scaleY:2, scaleX:2, yoyo:true, repeat:-1});
 
 	gsap.to("#bubble1_mb", {rotation: 160, x: 400, y:-200, duration: dur, yoyo:true, repeat:-1});
 	gsap.to("#bubble2_mb", {rotation: -156, x: 300, y:-260, duration: dur, yoyo:true, repeat:-1});
