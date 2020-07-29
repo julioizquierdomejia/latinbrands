@@ -290,6 +290,11 @@ jQuery(document).ready(function(){
 	menuNav.go();
 	validInput.go();
 	//bgImage.go();
+
+	$(window).bind("orientationchange", function(event){
+		alert('landscape')
+	});
+
 });
 
 
