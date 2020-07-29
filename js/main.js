@@ -292,7 +292,7 @@ jQuery(document).ready(function(){
 	//bgImage.go();
 
 	$(window).bind("orientationchange", function(event){
-		alert('landscape')
+		location.reload();
 	});
 
 });
