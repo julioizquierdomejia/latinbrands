@@ -14,7 +14,7 @@ var fullPage = {
 			},
 			afterRender: function(){
 				jQuery('.ly-latin-loader').fadeOut('slow');
-				//animarBolas();
+				animarBolas();
 			},
 			afterLoad: function(anchorLink, index){
 				if(anchorLink == 'nosotros.html' || anchorLink == 'clientes.html' || anchorLink == 'equipo.html'){
