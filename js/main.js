@@ -6,13 +6,15 @@ var fullPage = {
 			slidesNavigation: true,
 			fadingEffect: true,
 			scrollOverflow: true,
+			responsiveWidth:0,
+			receptivoAltura:0,
 			scrollOverflowOptions: {
 				click:false,
 				preventDefaultException: {tagName: /.*/}
 			},
 			afterRender: function(){
 				jQuery('.ly-latin-loader').fadeOut('slow');
-				animarBolas();
+				//animarBolas();
 			},
 			afterLoad: function(anchorLink, index){
 				if(anchorLink == 'nosotros.html' || anchorLink == 'clientes.html' || anchorLink == 'equipo.html'){
