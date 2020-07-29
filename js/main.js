@@ -289,7 +289,7 @@ jQuery(document).ready(function(){
 	eqDeta.go();
 	menuNav.go();
 	validInput.go();
-	bgImage.go();
+	//bgImage.go();
 });
 
 
