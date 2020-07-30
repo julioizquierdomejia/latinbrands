@@ -18569,6 +18569,8 @@
 @media (max-width: 768px) {
 
 	
+	.bubbles-dk{display: none;}
+	
 	.bubbles-mb{display: block!important;}
 	
 	
@@ -18655,7 +18657,6 @@
     }
 }
 
-
 @media (max-width: 480px) {
 	
     div.wrapper .section.home .wrap #anim1 p {
@@ -18689,7 +18690,7 @@
 
     div.wrapper .section.nosotros .fig.dos,
     div.wrapper .section.nosotros .fig.tres {
-        display: block
+        display: none
     }
 
     div.wrapper .section.clientes .lista-clientes {

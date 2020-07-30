@@ -6,8 +6,6 @@ var fullPage = {
 			slidesNavigation: true,
 			fadingEffect: true,
 			scrollOverflow: true,
-			responsiveWidth:0,
-			receptivoAltura:0,
 			scrollOverflowOptions: {
 				click:false,
 				preventDefaultException: {tagName: /.*/}
@@ -246,10 +244,10 @@ function animarBolas(){
 
 	
 	var tl = gsap.timeline({repeat: -1, repeatDelay: 1});
-	tl.staggerFrom(texto2_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);
-	tl.staggerTo(texto2_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:1}, 0.03);
+	tl.staggerFrom(texto2_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut, delay:1}, 0.02);	
 	tl.staggerFrom(texto1_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut}, 0.02);
-	tl.staggerTo(texto1_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:1}, 0.03);
+	tl.staggerTo(texto2_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:1}, 0.03);
+	tl.staggerTo(texto1_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut}, 0.03);
 	tl.staggerFrom(texto3_.chars, 0.4, {opacity:0, scale:0, y:80, rotationX:180, transformOrigin:"0% 50% -50",  ease:Back.easeOut}, 0.02);
 	tl.staggerTo(texto3_.chars, 0.6, {opacity:0, x:80,  ease:Back.easeOut, delay:2}, 0.01);
 	tl.staggerFrom(texto4_.words, 1, {opacity:0, y:120,  ease:Back.easeOut}, 0.12);
@@ -289,12 +287,7 @@ jQuery(document).ready(function(){
 	eqDeta.go();
 	menuNav.go();
 	validInput.go();
-	//bgImage.go();
-
-	$(window).bind("orientationchange", function(event){
-		location.reload();
-	});
-
+	bgImage.go();
 });
 
 

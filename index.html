@@ -12,17 +12,13 @@
   <!--link rel="stylesheet" href="css/vendors/animate.css">
   <link rel="stylesheet" href="css/linearicons.css"-->
   <link rel="stylesheet" href="css/main.css"-->
-    <!-- Google Tag Manager 
+    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P4W8SQL');</script>
-     End Google Tag Manager -->
-     <script>
-      ga('create', 'UA-XXX-X', {'allowAnchor': true});
-      ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-     </script>
+    <!-- End Google Tag Manager -->
     <!-- GreenSoock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
     <script src="js/vendors/st.min.js"></script>
@@ -58,14 +54,12 @@
   <div class="wrapper" id="fullpage">
 
     <!-- Seccion home  **************************************************************-->
-    <div class="section home fp-auto-height">
-      <div class="ct">
+    <div class="section home">
+      <div class="ct zoom">
         <div class="wrap">
-
           <div class="fondo">
             <img src="images/bg-degree.png" alt="" class="img-fondo">
           </div>
-          
           <div class="bubbles-dk">
             <img class='bubble' id='bubble1' src="images/bubbles_hd/bubble1.png">
             <img class='bubble' id='bubble2' src="images/bubbles_hd/bubble2.png">
@@ -380,10 +374,6 @@
   <script>
     jQuery(document).ready(function(){
       //new WOW().init();
-      jQuery('.menu a').click(function(){
-      var match = jQuery(this).attr('href').match(/#\S+/);
-      ga('send', 'pageview', location.pathname + match[0]);
-      });
     });
   </script>
 </body>
